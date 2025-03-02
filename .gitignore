@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environment
+venv/
+.env
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Docker files
+*.dockerfile
+docker-compose.override.yml
+.dockerignore
+
+# Logs and databases
+logs/
+*.log
+*.sqlite3
+*.db
+database/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.iml
+
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
